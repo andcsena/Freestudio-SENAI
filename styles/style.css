@@ -1,0 +1,201 @@
+/*  Paleta de cores */
+#cores { 
+background-color: #027373;
+background-color: #038C7F; 
+background-color: #A9D9D0; 
+background-color: #F2E7DC; 
+background-color: #0D0D0D; 
+}
+
+body {
+    background-color: #F2E7DC;
+    font-family: 'Inter', sans-serif; 
+}
+
+/* cabeçalho geral páginas */
+.cabecalho {
+    height: 80px;
+    background-color: #A9D9D0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60%;
+    margin-left: 1.5em;
+}
+
+/* FIM cabeçalho geral páginas FIM */
+
+
+/* botão para retornar a página de login */
+
+.cabecalho_botao {
+    margin-right: 1.5em;
+    background-color: #F2E7DC;
+    text-decoration: none;
+    color: #027373;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+
+.cabecalho_botao:hover {
+    background-color: #027373;
+    color: #F2E7DC;
+    border:2px solid #F2E7DC;
+}
+
+/* FIM botão para retornar a página de login FIM */
+
+
+
+
+/* Estilo da tag main da pagina de login */
+.pag_login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* FIM Estilo da tag main da pagina de login FIM */
+
+
+/* texto da pagina de login */
+
+.texto {
+    margin-left: 3.5em;
+    
+}
+.titulo {
+    font-weight: bold;
+    color: #038C7F;
+    font-size: 1.25em;
+}
+
+.titulo_principal {
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+/* FIM texto da pagina de login FIM */
+
+
+/* Estilização geral dos formulários */
+
+
+.formulario {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin: 5em 5em 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.formulario_caixa {
+    height: 35px;
+    border: 0px;
+    border-bottom: 2px solid #027373;
+    background-color: transparent;   
+    font-size: 1.5em;
+}
+
+.formulario_caixa::placeholder {
+    font-family: 'Inter', sans-serif; 
+    font-size: 1em;
+    color:  rgba(13, 13, 13, 0.75);
+}
+
+.formulario_caixa:focus {
+    outline: 0;
+}
+/* FIM estilização geral dos formulários FIM*/
+
+/* Estilização geral dos botões */
+.formulario_botao {
+    background-color: #027373;
+    color: #F2E7DC;
+    border-radius: 25px;
+    padding: 0.5em 2em;
+    border-color: transparent;
+    font-size: 1.5em;
+    margin: 1em 0px;
+}
+
+.formulario_botao:hover {
+    background-color: #F2E7DC;
+    color: #027373;
+    border:2px solid #027373;
+}
+
+
+.formulario_link {
+    color: #027373;
+    font-size: 0.8em;
+    margin: 1em 1em;
+}
+/* FIM Estilização geral dos botões FIM*/
+
+/* Estilização do formulário. (Página de login) */
+.login_caixa {
+    display: flex;
+    width: 100%;
+    margin: 2em 0em 2em 0em;
+}
+/* FIM Estilização do formulário. (Página de login) FIM */ 
+
+/* Estilo da tag main da pagina de cadastro */
+.pag_cadastro{
+    height: 600px;
+}
+
+.cadastro{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro_caixa {
+    display: inline;
+    width: auto;
+    margin: 3% 0;
+}
+.opcao_cadastro {
+    display: block;
+}
+
+.opcao_cadastro {
+    width: 100%;
+    color: rgba(13, 13, 13, 0.75);
+}
+.botao_cadastro {
+    margin-top: 2em;
+    width: 60%;
+}
+/* FIM Estilo da pagina de cadastro FIM */
+
+.pag_esqueceu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto_esqueceu {
+    padding: 5em 0 0 5em;
+    width: 100%;
+    font-size: 1.25em;
+}
+.recuperar_texto {
+    margin: 1em 0px;
+}
+
+.esqueceu_caixa {
+    width: 100%;
+    margin: 3% 0;
+}
