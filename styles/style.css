@@ -41,6 +41,12 @@ body {
     font-size: 1.5em;  
 }
 
+/* Estilo modal */
+.modal_pesonal_head {
+    background-color: #027373;
+    font-weight: bolder;
+}
+
 
 
 /* FIM Estilização do index FIM */
