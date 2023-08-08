@@ -21,13 +21,84 @@
         </a>
         <a href="login.html" class="cabecalho_botao">Login</a>
     </header>
-    <main>
-        <section>
-            <div class="container-fluid">
-                <h2 class="titulo h1">Loja</h2>
-                <h2 class="subtitulo titulo">Confira nossos produtos</h2>
+    <main class="py-4">
+    <!-- LOJA -->
+    
+            <div class="container my-5">
+                <h2 class="titulo_index">Loja</h2>
+                <h2 class="subtitulo">Confira nossos produtos:</h2>
             </div>
+
+    <!-- MICROFONES -->
+    <section>
+
+            <div class="container">
+                <h4 class="titulo">Microfones:</h4>
+                <div class="row">
+
+    <!-- CARDS -->
+
+                    <div class="card text-center mx-2" style="width: 18rem;">
+                        <img src="images/Produtos/Microfones/Redragon_Seyfert_GM100/foto_1.png" class="card-img-top" alt="microfone gamer">
+                        <div class="card-body">
+                          <h5 class="card-title">Microfone Gamer</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn formulario_botao botao_login" data-bs-toggle="modal" data-bs-target="#popUpMensagem">Ver</a>
+                        </div>
+                    </div>
+
+
+    <!-- FIM CARDS FIM -->
+                </div>
+            </div>
+    <!-- MODAL 1 -->
+        <div class="modal" id="popUpMensagem">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header ">
+                        <h1 class="modal-tittle ps-5">Microfone Gamer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- CARROSSEL MODAL -->
+                        <div class="carousel carousel-dark slide" id="demo" data-bs-ride="carousel">
+                            <!-- FOTOS -->
+                            <div class="carousel-inner" style="height: 600px; overflow: hidden;">
+                                <div class="carousel-item active">
+                                    <img src="images/Produtos/Microfones/Redragon_Seyfert_GM100/foto_1.png" alt="Foto-1" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/Produtos/Microfones/Redragon_Seyfert_GM100/foto_2.png" alt="Foto-2" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="images/Produtos/Microfones/Redragon_Seyfert_GM100/foto_4.png" alt="Foto-4" style="width: 100%;">
+                                </div>
+                            </div>
+                            <!-- CONTROLADORES SETAS -->
+                            <div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>                                    
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- FIM CARROSSEL MODAL FIM -->
+
+
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    <!-- FIM MODAL 1 FIM -->
         </section>
+    <!-- FIM MICROFONES FIM -->
     </main>
     
 
