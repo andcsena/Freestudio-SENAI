@@ -1,20 +1,9 @@
-//Calculadora do preço
-
-var preco = $('#preco_produto');
-
-
-$("#quantidade").on('input', function(){
-  let quantidadeValor = $("#quantidade").val();
-  console.log(quantidadeValor);
-  total = 350 *quantidadeValor;
-  preco.text(total);
-  })
-
-
   //slider
   const swiper = new Swiper('.swiper', {
-    
+
     direction: 'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 10,
     loop: true,
   
     pagination: {
@@ -26,5 +15,3 @@ $("#quantidade").on('input', function(){
       prevEl: '.swiper-button-prev',
     },
   });
-
-  
