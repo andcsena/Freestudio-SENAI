@@ -70,6 +70,10 @@ body {
     color: #A9D9D0;
 }
 
+.modal_pesonal_body {
+    background-color: #F2E7DC;
+}
+
 
 
 /* FIM Estilização do index FIM */
@@ -232,3 +236,64 @@ body {
     width: 100%;
     margin: 3% 0;
 }
+
+/* PAGINA PRODUTO */
+
+
+.pag_produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_produto {
+    margin: 3em auto;
+    padding: 2rem 4rem;
+    width: 90%;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;    
+}
+.card_p2 {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produto_img {
+    width: 100%;
+}
+
+.card_produto_footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.texto_produtos {
+    font-size: 1em;
+}
+
+
+.caixa_info_compra{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em 2em;
+}
+
+.caixa_preco{
+    display: flex;
+    gap: 0.25em;
+    font-size: 2em;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
