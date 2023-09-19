@@ -3,7 +3,7 @@
 
     direction: 'horizontal',
     slidesPerView: 4,
-    spaceBetween: 10,
+    spaceBetween: 20,
     loop: true,
   
     pagination: {

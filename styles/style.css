@@ -12,6 +12,9 @@ body {
     background-color: #F2E7DC;
     font-family: 'Inter', sans-serif; 
 }
+main {
+    margin: 0px auto 50px auto;
+}
 
 /* cabeçalho geral páginas */
 .cabecalho {
@@ -44,17 +47,18 @@ body {
 
 /* Estilo card */
 .card_personal {
-    width: 200px;
-    height: 400px;
-    padding: 1em;
-    border: 1px solid #0D0D0D;
+    width: 15%;
+    height: auto;
+    padding: 1em 0.25em;
+    border: none;
+    box-shadow: 2px 5px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: #F2E7DC;
 }
 
 .card_personal_img {
     margin: 0px auto;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
 
 }
 
